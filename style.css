@@ -15,7 +15,9 @@ body {
 
 /* Header styles */
 header {
-    background-color: #ffce54; /* Sunflower yellow */
+    background-image: url('header-image.jpg'); /* Replace 'header-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
     padding: 20px;
     text-align: center;
 }
@@ -66,11 +68,14 @@ section {
 
 section h2 {
     color: #ffce54; /* Sunflower yellow */
+    text-align: center; /* Center the h2 text */
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-image: url('footer-image.jpg'); /* Replace 'footer-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -80,4 +85,3 @@ footer {
 body {
     cursor: url('cursor.png'), auto;
 }
-
