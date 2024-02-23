@@ -34,7 +34,7 @@ header p {
 
 /* Navigation styles */
 nav {
-    background-color: rgba;
+    background-color: #4a90e2;
     padding: 10px;
 }
 
@@ -110,4 +110,3 @@ footer {
 body {
     cursor: url('cursor.png'), auto;
 }
-
