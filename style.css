@@ -127,11 +127,28 @@ footer {
 .right-column {
     flex: 2;
     padding-left: 20px;
+    overflow: hidden;
 }
 
 .right-column p {
     text-align: justify;
+    animation: slideIn 45s infinite alternate;
 }
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Cursor animations */
+body {
+    cursor: url('cursor.png'), auto;
+}
+
 
 /* Cursor animations */
 body {
