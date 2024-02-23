@@ -15,11 +15,12 @@ body {
 
 /* Header styles */
 header {
-    background-image: url('image/header.jfif'); /* Replace 'header-image.jpg' with your image path */
+    background-image: url('image/header.jfif');
     background-size: cover;
     background-position: center;
     padding: 20px;
     text-align: center;
+    color: #fff; /* Font color white */
 }
 
 header h1 {
@@ -33,7 +34,7 @@ header p {
 
 /* Navigation styles */
 nav {
-    background-color: #4a90e2; /* Dodger blue */
+    background-color: #4a90e2;
     padding: 10px;
 }
 
@@ -67,18 +68,42 @@ section {
 }
 
 section h2 {
-    color: #ffce54; /* Sunflower yellow */
-    text-align: center; /* Center the h2 text */
+    color: #ffce54;
+    text-align: center;
 }
 
 /* Footer styles */
 footer {
-    background-image: url('image/footer.jfif'); /* Replace 'footer-image.jpg' with your image path */
+    background-image: url('image/footer.jfif');
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+.contact-section {
+    margin-top: 20px;
+}
+
+.contact-section label {
+    display: block;
+    text-align: left;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-section button {
+    padding: 5px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
 /* Cursor animations */
