@@ -34,7 +34,7 @@ header p {
 
 /* Navigation styles */
 nav {
-    background-color: #4a90e2;
+    background-color: transparent; /* Transparent background */
     padding: 10px;
 }
 
@@ -58,6 +58,8 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    background-color: transparent; /* Transparent background */
+    padding: 5px 20px;
 }
 
 /* Section styles */
@@ -105,6 +107,12 @@ footer {
     border: none;
     cursor: pointer;
 }
+
+/* Cursor animations */
+body {
+    cursor: url('cursor.png'), auto;
+}
+
 
 /* Cursor animations */
 body {
