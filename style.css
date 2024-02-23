@@ -108,11 +108,30 @@ footer {
     cursor: pointer;
 }
 
-/* Cursor animations */
-body {
-    cursor: url('cursor.png'), auto;
+/* Two-column layout for about section */
+.two-column-section {
+    display: flex;
+    align-items: center;
 }
 
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.left-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-column {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.right-column p {
+    text-align: justify;
+}
 
 /* Cursor animations */
 body {
