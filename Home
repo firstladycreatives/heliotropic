@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heliotropic Blog</title>
+    <style>
+        /* Add your custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        /* Other styles go here */
+    </style>
+    <link rel="stylesheet" href="heliotropicstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Heliotropic</h1>
+        <p>Your Source for Sun-Kissed Inspiration</p>
+    </header>
+
+    <!-- Executive Summary -->
+    <section id="exec-summary">
+        <h2>Executive Summary</h2>
+        <p>Welcome to Heliotropic, where we explore all things related to sunlight, positivity, and growth. Our mission is to spread warmth and light through our blog posts.</p>
+    </section>
+
+    <!-- Vision and Mission -->
+    <section id="vision-mission">
+        <h2>Vision and Mission</h2>
+        <p><strong>Vision:</strong> To create a community of sun-seekers who embrace positivity and personal growth.</p>
+        <p><strong>Mission:</strong> Through our blog, we aim to inspire, educate, and connect individuals who share our love for sunny perspectives.</p>
+    </section>
+
+    <!-- Social Media Links -->
+    <section id="social-media">
+        <h2>Connect with Us</h2>
+        <ul>
+            <li><a href="https://www.facebook.com/heliotropic.blog" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/heliotropic_blog" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/heliotropic_blog" target="_blank">Twitter</a></li>
+        </ul>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles">
+        <h2>Latest Articles</h2>
+        <article>
+            <h3>Embracing Sunlight: A Journey Toward Positivity</h3>
+            <p>By Jane Sunseeker</p>
+            <p>Published on February 21, 2024</p>
+            <p>As the sun rises, so does our spirit. In this article, we explore the transformative power of sunlight and how it impacts our well-being. From morning rituals to sunbathing tips, discover ways to embrace the sun's warmth and radiance.</p>
+            <a href="article1.html">Read More</a>
+        </article>
+        <!-- Add more articles here -->
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a sunny story to share or a question? Reach out to us!</p>
+        <form action="mailto:heliotropic.flc@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <!-- Add other form fields as needed -->
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2024 Heliotropic Blog
+    </footer>
+</body>
+</html>
