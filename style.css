@@ -15,7 +15,7 @@ body {
 
 /* Header styles */
 header {
-    background-image: url('header-image.jpg'); /* Replace 'header-image.jpg' with your image path */
+    background-image: url('image/header.jfif'); /* Replace 'header-image.jpg' with your image path */
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -73,7 +73,7 @@ section h2 {
 
 /* Footer styles */
 footer {
-    background-image: url('footer-image.jpg'); /* Replace 'footer-image.jpg' with your image path */
+    background-image: url('image/footer.jfif'); /* Replace 'footer-image.jpg' with your image path */
     background-size: cover;
     background-position: center;
     color: #fff;
